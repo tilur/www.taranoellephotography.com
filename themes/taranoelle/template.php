@@ -155,7 +155,7 @@ function taranoelle_menu_tree($variables) {
 /**
  * Implements theme_field__field_type().
  */
-function taranoelle_field__taxonomy_term_reference($variables) {
+function aranoelle_field__taxonomy_term_reference($variables) {
   $output = '';
 
   // Render the label, if it's not hidden.
