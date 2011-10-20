@@ -1,0 +1,17 @@
+; $Id: uc_ca_sms.info,v 1.1 2010/07/08 09:53:18 shushu Exp $
+name = Ubercart Conditional actions SMS integration
+description = "Adding tools for SMS messaging for Ubercart using its Conditional actions module, based on the SMS Framework module."
+package = Ubercart
+core = "6.x"
+dependencies[] = uc_cart
+dependencies[] = sms
+dependencies[] = sms_user
+
+version = "6.x-0.1-dev"
+
+; Information added by drupal.org packaging script on January 1, 1970 - 00:00
+version = "7.x-3.x-dev"
+core = "7.x"
+project = "ubercart"
+datestamp = "1296780387"
+
