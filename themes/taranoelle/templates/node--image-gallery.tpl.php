@@ -101,10 +101,6 @@
 <div id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> clearfix"<?php print $attributes; ?>>
 	<div id="preloader"></div>
   <div id="thumbnails-wrapper">
-		<div class="thumbnails-top">
-			<div class="arrow-up" onClick="tnpScrollThumbnails('-');"></div>
-		</div>
-
 		<div id="thumbnails-inner">
     <?php
 		$first = true;
@@ -139,10 +135,6 @@
       echo '<img src="'.$filepath.'" onClick="tnpLoadBG(\'gallery\', \''.$filename.'\', \''.$style.'\');"'.$class.'>';
     }
     ?>
-		</div>
-
-		<div class="thumbnails-bottom">
-			<div class="arrow-down" onClick="tnpScrollThumbnails('+');"></div>
 		</div>
   </div>
 
