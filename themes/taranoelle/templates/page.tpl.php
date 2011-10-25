@@ -89,10 +89,15 @@
 // die();
 ?>
 <div id="page-wrapper">
+	<?php if (isset($node) && $node->type == 'image_gallery') { ?>
+	<div id="inner-control-show">Menu</div>
+	<?php } ?>
+
   <div id="page-background" class="bg_page"></div>
 
   <div id="header-wrapper">
 		<?php if (isset($node) && $node->type == 'image_gallery') { ?>
+		<div id="inner-control-hide">Hide</div>
     <div id="inner-title"><?php print $title ?></div>
 		<?php } ?>
     <a href="/"><div id="inner-logo"></div></a>

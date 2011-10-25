@@ -1,6 +1,26 @@
 jQuery(document).ready(function() {
+	jQuery('#inner-control-show').hide();
 	jQuery('body').height( jQuery(window).height() );
 
+	if (jQuery('#inner-control-hide')) {
+		speed = 100;
+
+		jQuery('#inner-control-hide').bind({
+			click: function() {
+				jQuery('#header-wrapper').animate({ top: '-=50' }, speed, 'swing');
+				jQuery('#thumbnails-wrapper').animate({ left: '-=200' }, speed, 'swing', function() {
+					jQuery('#inner-control-show').show();
+				});
+			},
+		});
+		jQuery('#inner-control-show').bind({
+			click: function() {
+				jQuery('#header-wrapper').animate({ top: '+=50' }, speed, 'swing');
+				jQuery('#thumbnails-wrapper').animate({ left: '+=200' }, speed, 'swing');
+				jQuery('#inner-control-show').hide();
+			},
+		});
+	}
 	/*
 	if (jQuery('#thumbnails-wrapper')) {
 		jQuery('#thumbnails-wrapper').bind({

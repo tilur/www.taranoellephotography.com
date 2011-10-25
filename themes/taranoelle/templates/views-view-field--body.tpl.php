@@ -20,8 +20,12 @@
   */
 ?>
 <?php
+echo '<pre>';
+print_r($field);
   $length = 700;
 
-  if (strlen($output) > $length) { print substr($output, 0, $length).'...'; }
+  if (strlen($output) > $length) {
+		print substr($output, 0, $length).'...<div class="blog-readmore-link"><a href="">Read More</a></div>';
+	}
   else { print $output; }
 ?>
