@@ -160,6 +160,7 @@
 
 <script type="text/javascript">
 	tnpLoadBG('gallery', '<?php print $firstFilename?>', '<?php print $firstStyle?>');
+	/*
 	jQuery('#header-wrapper').bind({
 		mouseenter: function() {
 			jQuery('#header-wrapper').animate({
@@ -173,7 +174,8 @@
 			}, 230, 'swing');
 		}
 	});
-	jQuery('#header-wrapper').animate({ opacity: 0.20 }, 230, 'swing');
-	jQuery('#thumbnails-wrapper').animate({ opacity: 0.20 }, 230, 'swing');
+	*/
+	//jQuery('#header-wrapper').animate({ opacity: 0.20 }, 230, 'swing');
+	//jQuery('#thumbnails-wrapper').animate({ opacity: 0.20 }, 230, 'swing');
 
 </script>
