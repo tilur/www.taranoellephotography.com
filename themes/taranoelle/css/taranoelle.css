@@ -31,7 +31,7 @@ body																									{ height:1000px; }
 
 	#preloader																					{ position:relative; top:200px; width:80px; height:12px; margin:0 auto; display:none; background:url(../images/preloader.gif); }
 	#thumbnails-wrapper																	{ position:fixed; top:0px; left:20px; width:150px; height:100%; border-left:solid 1px #404041; border-right:solid 1px #404041; background:url(../images/bg_white_transparent.png); }
-		#thumbnails-wrapper .thumbnails-top								{ position:absolute; top:0px; left:0px; width:150px; height:127px; background:url(../images/img_thumbnails-top.png) no-repeat; z-index:1000; }
+		#thumbnails-wrapper .thumbnails-top								{ position:absolute; top:0px; left:0px; width:150px; height:127px; background:url(./images/img_thumbnails-top.png) no-repeat; z-index:1000; }
 		#thumbnails-wrapper img														{ border-bottom:solid 1px #404041; cursor:pointer; margin-bottom:-5px; }
 /*		#thumbnails-wrapper img.first											{ border-top:solid 1px #404041; }*/
 		#thumbnails-wrapper .arrow-up											{ position:absolute; width:50px; height:45px; top:45px; left:50px; background:url(../images/img_arrow-up.png); cursor:pointer; }

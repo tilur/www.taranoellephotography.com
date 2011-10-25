@@ -1,6 +1,7 @@
 jQuery(document).ready(function() {
 	jQuery('body').height( jQuery(window).height() );
 
+	/*
 	if (jQuery('#thumbnails-wrapper')) {
 		jQuery('#thumbnails-wrapper').bind({
 			mouseenter: function() {
@@ -16,6 +17,7 @@ jQuery(document).ready(function() {
 			}
 		});
 	}
+	*/
 });
 
 function tnpLoadBG(type, image, style) {
